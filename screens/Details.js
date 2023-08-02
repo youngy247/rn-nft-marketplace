@@ -69,6 +69,7 @@ const Details = ({ route, navigation }) => {
         ListHeaderComponent={() => (
           <React.Fragment>
             <DetailsHeader data={data} navigation={navigation} />
+            <SubInfo />
           </React.Fragment>
         )}
       />
